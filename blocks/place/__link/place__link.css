@@ -1,0 +1,22 @@
+.place__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.12rem;
+  line-height: 1.22;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin: 0;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  grid-area: link;
+}
+
+@media screen and (max-width: 540px) {
+  .place__link {
+    display: block;
+    width: 288px;
+    margin: 0 auto;
+  }
+}

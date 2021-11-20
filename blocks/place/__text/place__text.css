@@ -1,0 +1,16 @@
+.place__text {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.12rem;
+  line-height: 1.63;
+  color: #ffffff;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 960px) {
+  .place__text {
+    font-size: 1.12rem;
+  }
+}

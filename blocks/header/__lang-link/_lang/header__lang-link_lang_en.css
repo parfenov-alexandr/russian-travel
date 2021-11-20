@@ -1,0 +1,17 @@
+.header__lang-link_lang_en {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.17;
+  text-align: right;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .header__lang-link_lang_en {
+    font-size: 1.12rem;
+    line-height: 1.1;
+  }
+}

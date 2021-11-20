@@ -1,0 +1,21 @@
+.place__url-heading {
+  margin: 0 0 34px;
+  grid-column: 2;
+  grid-row: 1;
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+  align-self: end;
+  grid-area: link;
+}
+
+@media screen and (max-width: 540px) {
+  .place__url-heading {
+    display: block;
+    width: 288px;
+    margin: 0 auto 34px;
+  }
+}

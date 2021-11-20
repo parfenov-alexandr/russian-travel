@@ -1,0 +1,39 @@
+.place {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-areas: "title link"
+                       "image paragraph";
+  grid-template-columns: 46.7% 1fr;
+  grid-template-rows: auto auto;
+  row-gap: 48px;
+  column-gap: 40px;
+}
+
+.place:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1120px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .place {
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas: "title"
+                        "link"
+                       "image"
+                       "paragraph";
+    row-gap: 32px;
+  }
+}

@@ -1,0 +1,10 @@
+.footer__copyright {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.88rem;
+  line-height: 1.14;
+  /* identical to box height, or 114% */
+  text-align: right;
+  color: #FFFFFF;
+}
