@@ -4,7 +4,7 @@
   grid-row: 1;
   font-family: Inter;
   font-weight: normal;
-  font-size: 0.75rem;
+  font-size: .75rem;
   line-height: 1;
   letter-spacing: 2px;
   color: #aaaaaa;
@@ -14,8 +14,6 @@
 
 @media screen and (max-width: 540px) {
   .place__url-heading {
-    display: block;
-    width: 288px;
-    margin: 0 auto 34px;
+    padding-left: 16px;
   }
 }

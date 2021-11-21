@@ -3,9 +3,20 @@
   margin: 92px auto;
 }
 
+@media screen and (max-width: 1120px) {
+  .cover {
+    margin: 66px auto 118px;
+  }
+}
+
 @media screen and (max-width: 960px) {
-  .cover__link {
-    max-width: 768px;
-    max-height: 480px;
+  .cover {
+    margin: 50px auto 88px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .cover {
+    margin: 66px auto 64px;
   }
 }

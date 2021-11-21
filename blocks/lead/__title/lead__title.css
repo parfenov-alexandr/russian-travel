@@ -6,14 +6,26 @@
   font-size: 6rem;
   line-height: 1.04;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1120px) {
+  .lead__title {
+    margin: 44px auto 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .lead__title {
+    margin: 48px auto 0;
+  }
 }
 
 @media screen and (max-width: 540px) {
-
   .lead__title {
     max-width: 288px;
     font-size: 2.5rem;
     line-height: 1.1;
+    margin: 48px auto 0;
   }
 }

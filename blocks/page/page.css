@@ -4,8 +4,9 @@
   background-color: #2A2C2F;
   margin:0 auto;
   font-family: 'Inter';
-  padding-top: 28px;
-  padding-bottom: 24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 28px 0 24px;
   box-sizing: border-box;
 }
 

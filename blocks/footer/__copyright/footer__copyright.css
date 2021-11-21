@@ -4,7 +4,14 @@
   font-weight: normal;
   font-size: 0.88rem;
   line-height: 1.14;
-  /* identical to box height, or 114% */
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .footer__copyright {
+    text-align: left;
+    margin: 48px 0 0;
+  }
 }

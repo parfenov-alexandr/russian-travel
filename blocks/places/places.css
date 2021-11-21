@@ -2,7 +2,6 @@
   max-width: 984px;
   margin: 106px auto 0;
   display: grid;
-  grid-template-columns: 1fr;
   grid-template-rows: repeat(5, auto);
   row-gap: 80px;
   list-style: none;
@@ -12,18 +11,23 @@
 @media screen and (max-width: 1120px) {
   .places {
     max-width: 928px;
+    margin: 92px auto 0;
   }
 }
 
 @media screen and (max-width: 960px) {
   .places {
     max-width: 720px;
+    margin: 128px auto 0;
+    row-gap: 73px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .places {
     max-width: 320px;
+    margin: 64px auto 0;
+    row-gap: 32px;
   }
 }
 

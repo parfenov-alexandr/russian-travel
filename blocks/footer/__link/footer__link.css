@@ -15,4 +15,8 @@
     line-height: 1;
     margin: 0 0 32px;
   }
+
+  .footer__link:last-of-type {
+    margin: 0;
+  }
 }

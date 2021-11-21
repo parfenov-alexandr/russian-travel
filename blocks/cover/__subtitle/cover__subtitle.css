@@ -10,11 +10,25 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1120px) {
+  .cover__subtitle {
+    margin: 32px auto 195px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cover__subtitle {
+    margin: 32px auto 115px;
+  }
+}
+
+
+@media screen and (max-width: 560px) {
   .cover__subtitle {
     max-width: 288px;
     font-size: 0.875rem;
     line-height: 1.14;
+    margin: 16px auto 33px;
   }
 }
 

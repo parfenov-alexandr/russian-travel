@@ -6,17 +6,17 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 8px 0 0;
+  margin: 3px 0 0;
 }
 
 @media screen and (max-width: 960px) {
   .lead__caption {
-    margin: 8px 0 0 24px;
+    margin: 3px 0 0 24px;
   }
 }
 
 @media screen and (max-width: 540px) {
   .lead__caption {
-    margin: 8px 0 0 24px;
+    margin: 3px 0 0 16px;
   }
 }
