@@ -4,4 +4,4 @@
 HTML страница для отработки знаний и навыков в адаптивной верстке на начальном этапе обучения в Яндекс Практикуме.
 Использовались технологии HTML, css, флексбокс верстка, грид.
 
-[Ссылка на проект] (https://parfenov-alexandr.github.io/russian-travel/)
+[Ссылка на проект](https://parfenov-alexandr.github.io/russian-travel/)
