@@ -1,0 +1,11 @@
+.header__lang-link_action_none {
+  text-decoration: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 540px) {
+  .header__lang-link_action_none {
+    font-size: 1.12rem;
+    line-height: 1.1;
+  }
+}

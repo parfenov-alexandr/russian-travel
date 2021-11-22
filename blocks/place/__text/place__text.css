@@ -1,15 +1,15 @@
 .place__text {
-  font-family: Inter;
+  font-family: 'Inter', 'Tahoma', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1.12rem;
   line-height: 1.63;
   color: #ffffff;
-  margin: 26px 0 0;
+  margin: 0 0 26px;
   word-wrap: break-word;
 }
 
-.place__text:first-of-type {
+.place__text:last-of-type {
   margin: 0;
 }
 

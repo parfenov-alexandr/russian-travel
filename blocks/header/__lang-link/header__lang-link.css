@@ -1,4 +1,10 @@
 .header__lang-link {
+  font-family: 'Inter', 'Tahoma', 'Georgia', sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.17;
+  text-align: right;
+  color: #ffffff;
   margin: 18px 0 0;
   display: flex;
   align-items: flex-end;

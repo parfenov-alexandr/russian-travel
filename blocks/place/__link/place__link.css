@@ -1,5 +1,5 @@
 .place__link {
-  font-family: Inter;
+  font-family: 'Inter', 'Tahoma', 'Georgia', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1.12rem;
@@ -11,6 +11,11 @@
   grid-row: 1;
   align-self: end;
   grid-area: link;
+}
+
+.place__link:hover {
+  opacity: .8;
+  transition: .3s;
 }
 
 @media screen and (max-width: 540px) {
