@@ -12,8 +12,8 @@
 
 @media screen and (max-width: 1120px) {
   .page {
-     padding-top: 16px;
-     min-width: 1024px;
+    padding-top: 16px;
+    min-width: 1024px;
   }
 }
 
@@ -23,7 +23,6 @@
     padding-top: 16px;
   }
 }
-
 
 @media screen and (max-width: 540px) {
   .page {
