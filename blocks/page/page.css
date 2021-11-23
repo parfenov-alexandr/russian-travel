@@ -3,11 +3,12 @@
   height: auto;
   background-color: #2A2C2F;
   margin:0 auto;
-  font-family: 'Inter', 'Tahoma', 'Georgia', sans-serif;
+  font-family: 'Inter', 'Tahoma', 'Geneva', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 28px 0 24px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1120px) {
@@ -30,3 +31,4 @@
     padding-top: 16px;
   }
 }
+

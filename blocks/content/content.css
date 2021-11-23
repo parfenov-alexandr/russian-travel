@@ -2,3 +2,21 @@
   max-width: 1280px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1120px) {
+  .content {
+    max-width: 1024px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .content {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .content {
+    max-width: 320px;
+  }
+}
