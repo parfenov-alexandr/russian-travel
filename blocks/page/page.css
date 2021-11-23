@@ -8,7 +8,6 @@
   -moz-osx-font-smoothing: grayscale;
   padding: 28px 0 24px;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1120px) {
