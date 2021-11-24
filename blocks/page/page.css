@@ -1,5 +1,5 @@
 .page {
-  min-width: 1280px;
+  min-width: 100%;
   height: auto;
   background-color: #2A2C2F;
   margin:0 auto;
@@ -13,13 +13,13 @@
 @media screen and (max-width: 1120px) {
   .page {
     padding-top: 16px;
-    min-width: 1024px;
+    min-width: 80%;
   }
 }
 
 @media screen and (max-width: 960px) {
   .page {
-    min-width: 768px;
+    min-width: 60%;
     padding-top: 16px;
   }
 }

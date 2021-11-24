@@ -1,9 +1,10 @@
 .header__link-list {
+  width: auto;
   padding: 0;
   margin: 13px 0 0;
   list-style: none;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
 }
-
 
